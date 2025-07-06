@@ -1,0 +1,13 @@
+conda create -p environment_name python=3.12
+conda create -n environment_name python 3.12
+
+conda env list
+
+conda activate environment_name
+
+pip install library_name
+pip freeze
+pip install -r requirements.txt
+
+In colab/vscode :
+!python name_of_python_file.py
