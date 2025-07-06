@@ -1,0 +1,12 @@
+environment variable to add/check (WINDOWS)
+C:\Users\scl\miniconda3
+C:\Users\scl\miniconda3\Library\bin
+C:\Users\scl\miniconda3\Library\usr\bin
+C:\Users\scl\miniconda3\Library\mingw-w64\bin
+C:\Users\scl\miniconda3\Scripts
+
+conda commands to test
+command 1 : in terminal >> type conda
+command 2 : in terminal >> conda activate base
+command 3 : in terminal >> type python
+command 4 : in terminal >> conda activate base >> python
