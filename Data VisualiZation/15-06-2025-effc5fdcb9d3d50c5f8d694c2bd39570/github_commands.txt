@@ -1,0 +1,32 @@
+git init  -> initialize git
+git add .  --> add all the files for tracking
+git commit -m "very first git commit"
+
+git config --global user.email "you@example.com"
+git config --global user.name "Monalsingh"
+
+git commit -m "very first git commit"
+
+git branch -M main  # while installing, we mentioned to use 'main'
+
+git remote add origin https://github.com/Monalsingh/dummy1.git
+
+git push -u origin main
+
+git branch branch_name
+
+git branch -b branch_name
+
+git checkout branch
+
+git add . && git commit -m "message"
+
+git status
+
+git pull origin main
+
+git pull
+
+git add "file_name"
+
+git clone remote_url

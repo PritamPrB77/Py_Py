@@ -1,0 +1,15 @@
+rm -rf ~/.ssh/*
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+cat ~/.ssh/id_ed25519.pub
+
+Go to: https://github.com/settings/ssh/new
+
+Title: (e.g., "My Laptop SSH Key")
+
+Key: Paste your copied public key
+
+Click "Add SSH key"
+
+ssh -T git@github.com

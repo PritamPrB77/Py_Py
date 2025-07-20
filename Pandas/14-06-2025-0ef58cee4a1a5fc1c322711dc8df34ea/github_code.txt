@@ -1,0 +1,16 @@
+git init
+git add
+git commit -m "very first git commit"
+
+if above code provides error, do the below
+    Step 1 :    git config --global user.email "you@example.com"
+    Step 2 :    git config --global user.name "Monalsingh"
+    Step 3 :    git commit -m "very first git commit"
+
+
+>> Make sure your are on main branch by running below 
+git branch -M main  # while installing, we mentioned to use 'main'
+
+git remote add origin https://github.com/Monalsingh/dummy1.git
+
+git push -u origin main

@@ -1,0 +1,30 @@
+Task : Use reportlab library to automatically create report PDF and provide analysis based on certain condition.
+
+Use the below URL and analyze it :
+https://archive.ics.uci.edu/dataset/352/online+retail
+Kaggle : https://www.kaggle.com/datasets/jihyeseo/online-retail-data-set-from-uci-ml-repo
+
+Set some predefined options to show details of basic analysis
+1. Prompt user to input Analysis Level : Level-1, Level-2, Level-3
+
+Whatever user selects should be the heading of the PDF created e.g. LEVEL-1 ANALYSIS
+If user mentions Level-1
+* Add Description about the dataset
+* Add table about column description
+* Add few important information dataset like type of each column
+* Add 2 interesting fact about data
+
+If user mentioned Level-2
+* Add all components of Level-1
+* Add 3 important analysis
+
+If user mentioned Level-3
+* Add all components of Level-2
+* Add 6 important analysis
+
+Acceptance criteria (optional):
+* Code should be executed from main.py
+* All python scripts except utils.py(if used) should follow OOP
+* main.py should have a class called Analysis and should have main start methods as 'run_analysis' which will run everything. To have this restriction, implement an abstract class with run_analysis as abstract method. Inherit this abstract class in 'Analysis'.
+* If Level-2 or Level-3, Plots should be good looking and should be easily readable. Minimum font overlapping.
+* To submit it, Tag me on linkedin with a PDF of Level-3 attached via Google drive URL. Recorded video is for your own portfolio.
