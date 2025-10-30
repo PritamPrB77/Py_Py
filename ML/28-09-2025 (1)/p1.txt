@@ -1,0 +1,4 @@
+
+ So when we create mean square error , why we do put square here !! Here Sqaure
+ means more Error ,, mean if the error diff is high then sqaure will high and model learn well from that diff thatswhy
+ we put sqaure it helps the model to learn better by asumming more error
